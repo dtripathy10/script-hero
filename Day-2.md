@@ -12,7 +12,11 @@
 1) Articles on the digital ocean which explains the details of how to use I/O redirection
 https://www.digitalocean.com/community/tutorials/an-introduction-to-linux-i-o-redirection
 
-2) A c program which explain how to pass message to standard output/error
+2) How $? command works 
+
+It will provide the return code of the last executed program. The convention of return code is if 0 then success otherwise the program executed with failed status
+
+3) A c program which explain how to pass message to standard output/error
 
 ```c
 #include "stdio.h"
@@ -44,3 +48,4 @@ int main(int argc, char **argv) {
 }
 
 ```
+
