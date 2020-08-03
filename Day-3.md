@@ -15,3 +15,9 @@ For more example, I've followed these below blogs:-
 
 1) https://www.thegeekstuff.com/2009/09/unix-sed-tutorial-printing-file-lines-using-address-and-patterns/
 
+
+### List all the file names presents in a folder with its absolute path
+
+```sh
+find . -type f -exec realpath  {} \;
+```
